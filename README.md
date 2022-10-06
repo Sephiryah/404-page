@@ -1,6 +1,7 @@
 #Error 404
 
 It's a little page 404 error that I made in the theme of Lobotomy Corporation.
+Github Page: https://sephiryah.github.io/404-page/
 
 ##Who did this project?
 

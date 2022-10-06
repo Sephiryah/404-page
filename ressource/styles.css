@@ -5,9 +5,12 @@
 
 body {
     display: flex;
+    background-color: black;
     background-image: url(./image/LobCorp.png);
     background-attachment: fixed;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     color: white;
     height: 100vh;
     align-items: center;
@@ -17,36 +20,33 @@ body {
     font-family: Gill-Sans, sans-serif;
 }
 
-#first-trumpet{
+div {
     display: flex;
-    background-image: url(./image/First_trumpet.png);
-    width: 504px;
-    height: 206px;
+    background-position: top center;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 75vh;
+    height: 30vh;
     justify-content: center;
     align-items: center;
-    font-size: 60px;
+}
+#first-trumpet{
+    
+    background-image: url(./image/First_trumpet.png);
+    font-size: 8vh;
     font-weight: 700;
 }
 
 #second-trumpet{
-    display: flex;
     background-image: url(./image/Second_trumpet.png);
-    width: 504px;
-    height: 206px;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    font-size: 20px;
+    font-size: 2.2vh;
 }
 
 #third-trumpet{
-    display: flex;
     background-image: url(./image/Third_trumpet.png);
-    width: 504px;
-    height: 206px;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
+    font-size: 2.2vh;
 }
 
 #third-trumpet a{
